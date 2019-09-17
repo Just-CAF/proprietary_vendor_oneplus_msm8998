@@ -100,8 +100,8 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqmi_common_so
 LOCAL_MODULE_OWNER := oneplus
-LOCAL_SRC_FILES_64 := proprietary/lib64/libqmi_common_so.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libqmi_common_so.so
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libqmi_common_so.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libqmi_common_so.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES

@@ -1207,27 +1207,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ubifocus_lib.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libmmcamera_sac_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sac_lib.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/camera/sticker/dog.zip:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sticker/dog.zip \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/camera/sticker/huzi.zip:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sticker/huzi.zip \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/camera/sticker/megviifacepp_0_4_7_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sticker/megviifacepp_0_4_7_model \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/camera/sticker/mgbeautify_1_2_3_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sticker/mgbeautify_1_2_3_model \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/camera/sticker/tuzi.zip:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sticker/tuzi.zip \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/camera/sticker/wanzai.zip:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sticker/wanzai.zip \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/camera/cp/CPCalibrationData.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/CPCalibrationData.bin \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/camera/cp/SystemParamsBokeh.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/SystemParamsBokeh.bin \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/camera/cp/SystemParamsFusion.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/SystemParamsFusion.bin \
-    vendor/oneplus/msm8998-common/proprietary/vendor/etc/camera/cp/systemParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/systemParams.bin
-
-
-
+    vendor/oneplus/msm8998-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
     com.qualcomm.qti.ant@1.0 \

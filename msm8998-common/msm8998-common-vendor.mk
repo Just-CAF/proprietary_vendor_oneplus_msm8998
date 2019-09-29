@@ -1232,7 +1232,13 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     PowerOffAlarm \
     TimeService \
-    WfdCommon
+    WfdCommon \
+    libaudioalsa \
+    libqmiservices \
+    libdsi_netctrl \
+    libqmi_common_so \
+    libqmi_cci \
+    libsdm-disp-apis
 endif
 
 -include vendor/extra/devices.mk

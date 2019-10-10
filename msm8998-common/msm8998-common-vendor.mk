@@ -1277,12 +1277,10 @@ endif
 ifneq ($(call is-qc-perf-target),true)
 PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
-    vendor/oneplus/msm8998-common/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/oneplus/msm8998-common/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/oneplus/msm8998-common/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/oneplus/msm8998-common/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/oneplus/msm8998-common/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
-    vendor/oneplus/msm8998-common/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/oneplus/msm8998-common/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/oneplus/msm8998-common/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/oneplus/msm8998-common/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \

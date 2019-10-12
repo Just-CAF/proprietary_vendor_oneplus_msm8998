@@ -1263,20 +1263,16 @@ PRODUCT_PACKAGES += \
     imssettings \
     ims \
     qcrilmsgtunnel \
-<<<<<<< HEAD
     PowerOffAlarm \
     TimeService \
-    WfdCommon \
     libaudioalsa \
     libqmiservices \
     libdsi_netctrl \
     libqmi_common_so \
     libqmi_cci \
-    libsdm-disp-apis
-=======
+    libsdm-disp-apis \
     CNEService \
     WfdCommon
->>>>>>> ffa6266... msm8998-common: Update for CNE
 endif
 
 -include vendor/extra/devices.mk

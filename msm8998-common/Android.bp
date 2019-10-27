@@ -232,3 +232,35 @@ cc_prebuilt_library_shared {
 
     vendor: true,
 }
+
+cc_prebuilt_library_shared {
+    name: "vendor.qti.hardware.fm@1.0",  
+    owner: "oneplus",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so"],
+        },
+        lib32: {
+            srcs: ["proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so"],
+        },
+    },
+    compile_multilib: "both",
+
+    vendor: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbtnv",
+    owner: "oneplus",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/vendor/lib64/libbtnv.so"],
+        },
+        lib32: {
+            srcs: ["proprietary/vendor/lib/libbtnv.so"],
+        },
+    },
+    compile_multilib: "both",
+
+    vendor: true,
+}

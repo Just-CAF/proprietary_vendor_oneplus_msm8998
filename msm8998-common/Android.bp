@@ -44,17 +44,6 @@ cc_prebuilt_library_shared {
 
 }
 
-//cc_prebuilt_library_shared {
-//    name: "liblbs_core",
-//    owner: "oneplus",
-//    multilib: {
-//        lib64: {
-//            srcs: ["proprietary/lib64/liblbs_core.so"],
-//        },
-//    },
-//    compile_multilib: "64",
-//}
-
 cc_prebuilt_library_shared {
     name: "libloc_api_v02",
     owner: "oneplus",

@@ -1,4 +1,4 @@
-// Copyright (C) 2019 The Potato Open Sauce Project
+// Copyright (C) 2017-2019 The LineageOS Project
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -23,3 +23,227 @@ dex_import {
     jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
+java_import {
+    name: "vendor.oneplus.hardware.param-V1.0-java",
+    owner: "oneplus",
+    jars: ["proprietary/framework/vendor.oneplus.hardware.param-V1.0-java.jar"],
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qualcomm.qti.ant@1.0",
+    owner: "oneplus",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/lib64/com.qualcomm.qti.ant@1.0.so"],
+        },
+        lib32: {
+            srcs: ["proprietary/lib/com.qualcomm.qti.ant@1.0.so"],
+        },
+    },
+    compile_multilib: "both",
+
+}
+
+//cc_prebuilt_library_shared {
+//    name: "liblbs_core",
+//    owner: "oneplus",
+//    multilib: {
+//        lib64: {
+//            srcs: ["proprietary/lib64/liblbs_core.so"],
+//        },
+//    },
+//    compile_multilib: "64",
+//}
+
+cc_prebuilt_library_shared {
+    name: "libloc_api_v02",
+    owner: "oneplus",
+    srcs: ["proprietary/vendor/lib64/libloc_api_v02.so"],
+    compile_multilib: "64",
+
+    vendor: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaudioalsa",
+    owner: "oneplus",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/lib64/libaudioalsa.so"],
+        },
+        lib32: {
+            srcs: ["proprietary/lib/libaudioalsa.so"],
+        },
+    },
+    compile_multilib: "both",
+
+}
+
+cc_prebuilt_library_shared {
+    name: "libqmiservices",
+    owner: "oneplus",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/vendor/lib64/libqmiservices.so"],
+        },
+        lib32: {
+            srcs: ["proprietary/vendor/lib/libqmiservices.so"],
+        },
+    },
+    compile_multilib: "both",
+
+}
+
+cc_prebuilt_library_shared {
+    name: "libdsi_netctrl",
+    owner: "oneplus",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/vendor/lib64/libdsi_netctrl.so"],
+        },
+        lib32: {
+            srcs: ["proprietary/vendor/lib/libdsi_netctrl.so"],
+        },
+    },
+    compile_multilib: "both",
+
+}
+
+cc_prebuilt_library_shared {
+    name: "libantradio",
+    owner: "oneplus",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/lib64/libantradio.so"],
+        },
+        lib32: {
+            srcs: ["proprietary/lib/libantradio.so"],
+        },
+    },
+    compile_multilib: "both",
+
+}
+
+cc_prebuilt_library_shared {
+    name: "libqmi_cci",
+    owner: "oneplus",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/vendor/lib64/libqmi_cci.so"],
+        },
+        lib32: {
+            srcs: ["proprietary/vendor/lib/libqmi_cci.so"],
+        },
+    },
+    compile_multilib: "both",
+
+}
+
+cc_prebuilt_library_shared {
+    name: "libqmi_common_so",
+    owner: "oneplus",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/vendor/lib64/libqmi_common_so.so"],
+        },
+        lib32: {
+            srcs: ["proprietary/vendor/lib/libqmi_common_so.so"],
+        },
+    },
+    compile_multilib: "both",
+
+}
+
+cc_prebuilt_library_shared {
+    name: "libsdm-disp-apis",
+    owner: "oneplus",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/lib64/libsdm-disp-apis.so"],
+        },
+        lib32: {
+            srcs: ["proprietary/lib/libsdm-disp-apis.so"],
+        },
+    },
+    compile_multilib: "both",
+
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.qti.hardware.fm@1.0",
+    owner: "oneplus",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/lib64/vendor.qti.hardware.fm@1.0.so"],
+        },
+        lib32: {
+            srcs: ["proprietary/lib/vendor.qti.hardware.fm@1.0.so"],
+        },
+    },
+    compile_multilib: "both",
+
+}
+
+cc_prebuilt_library_shared {
+    name: "libgpustats",
+    owner: "oneplus",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/vendor/lib64/libgpustats.so"],
+        },
+        lib32: {
+            srcs: ["proprietary/vendor/lib/libgpustats.so"],
+        },
+    },
+    compile_multilib: "both",
+
+    vendor: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsdm-disp-vndapis",
+    owner: "oneplus",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/vendor/lib64/libsdm-disp-vndapis.so"],
+        },
+        lib32: {
+            srcs: ["proprietary/vendor/lib/libsdm-disp-vndapis.so"],
+        },
+    },
+    compile_multilib: "both",
+
+    vendor: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libthermalclient",
+    owner: "oneplus",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/vendor/lib64/libthermalclient.so"],
+        },
+        lib32: {
+            srcs: ["proprietary/vendor/lib/libthermalclient.so"],
+        },
+    },
+    compile_multilib: "both",
+
+    vendor: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libtime_genoff",
+    owner: "oneplus",
+    multilib: {
+        lib64: {
+            srcs: ["proprietary/vendor/lib64/libtime_genoff.so"],
+        },
+        lib32: {
+            srcs: ["proprietary/vendor/lib/libtime_genoff.so"],
+        },
+    },
+    compile_multilib: "both",
+
+    vendor: true,
+}

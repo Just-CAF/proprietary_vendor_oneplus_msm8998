@@ -170,21 +170,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.fm@1.0",
-    owner: "oneplus",
-    multilib: {
-        lib64: {
-            srcs: ["proprietary/lib64/vendor.qti.hardware.fm@1.0.so"],
-        },
-        lib32: {
-            srcs: ["proprietary/lib/vendor.qti.hardware.fm@1.0.so"],
-        },
-    },
-    compile_multilib: "both",
-
-}
-
-cc_prebuilt_library_shared {
     name: "libgpustats",
     owner: "oneplus",
     multilib: {

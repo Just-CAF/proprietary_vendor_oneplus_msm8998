@@ -17,7 +17,7 @@
 LOCAL_PATH := $(call my-dir)
 
 # include QTI Perf
--include vendor/qcom/common/perf/qti-perf.mk
+-include vendor/qcom/common/pref/qti-perf.mk
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := IFAAService

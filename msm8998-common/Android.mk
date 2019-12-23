@@ -16,6 +16,9 @@
 
 LOCAL_PATH := $(call my-dir)
 
+# include QTI Perf
+-include vendor/qcom/common/pref/qti-perf.mk
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := IFAAService
 LOCAL_MODULE_OWNER := oneplus
